@@ -1,0 +1,122 @@
+.EditorPage{
+    width: inherit;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+
+    .EditContainer{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .EditContent{
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            gap: 5rem;
+
+            .Left{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                .Inputs{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    margin-bottom: 15px;
+                    input{
+                    // width: 100%;
+                    padding: 10px;
+                    border: 1.5px solid rgb(117, 117, 117);
+                    border-radius: 8px;
+                    outline: none;
+                    margin-bottom: 20px;
+
+                    &:hover{
+                        border: 1.8px solid black;
+                    }
+                }
+                }
+
+                .Buttons{
+                    display: flex;
+                    gap: 2rem;
+                    align-items: center;
+                    justify-content: space-evenly;
+
+                    button{
+                        padding: 10px;
+                        outline: none;
+                        border: none;
+                        font-family: 'Signika', system-ui;
+                        font-size: 15px;
+                        font-weight: 450;
+                        border-radius: 7px;
+                        cursor: pointer;
+
+                        &:hover{
+                            transform: translateY(2px);
+                        }
+                    }
+                    .Generate{
+                        background: rgb(116, 226, 153);
+                    }
+                    .GoBack{
+                        background: #333;
+                        color: rgb(226, 224, 224);
+                    }
+                }
+            }
+            .Right{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: space-between;
+                font-family: 'Signika', system-ui;
+                img{
+                    width: 500px;
+                    height: 300px;
+                    object-fit: contain;
+                    border: 2px solid black;
+                    border-radius: 5px;
+                }
+                h5{
+                    margin-top: 50px;
+                    font-size: 20px;
+                    font-family: 'Signika', 'Ubuntu', system-ui;
+                    font-weight: 500;
+                }
+                .Buttons{
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-evenly;
+                    gap: 2rem;
+
+                    .DownloadButton{
+                        background: #4ec;
+                        padding: 10px;
+                        border-radius: 8px;
+                        outline: none;
+
+                        span{
+                            font-size: 16px;
+                            font-weight: 500;
+                        }
+                    }
+                    .ShareButton{
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-evenly;
+                        gap: 1rem;
+                    }
+                }
+            }
+        }
+    }
+}

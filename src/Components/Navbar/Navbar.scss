@@ -1,0 +1,46 @@
+.NavBar{
+    background: #fff;
+    backdrop-filter: blur(2px) saturate(180%);
+    -webkit-backdrop-filter: blur(2px) saturate(180%);
+    box-shadow: 0 8px 8px 0 rgba(230, 230, 230, 0.37);
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    border: 1px solid rgba(209, 213, 219, 0.3);
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .LeftSide{
+
+        font-family: 'Acme';
+        font-size: 25px;
+        cursor: pointer;
+
+        span{
+            font-weight: 500;
+        }
+        
+        &:hover{
+            .Emoji{
+                transform: scale(1.8);
+            }
+        }
+    }
+  
+    .RightSide{
+        .Options{
+            cursor: pointer;
+            span{
+                font-size: 17px;
+                font-weight: 500;
+                font-family: 'Signika', 'Open Sans', sans-serif;
+            }
+            .Aman{
+                font-size: 20px;
+            }   
+            
+        }
+    }
+
+}

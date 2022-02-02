@@ -1,0 +1,22 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Signika:wght@300;400;500&family=Ubuntu:wght@300;400;500&display=swap');
+
+*{
+
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Signika', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body{
+        background: linear-gradient(78deg, #39e5b6, #70b2d9);
+        -webkit-animation: AnimationName 7s ease infinite;
+        -moz-animation: AnimationName 7s ease infinite;
+        animation: AnimationName 7s ease infinite;
+}
+
+.Link{
+    text-decoration: none;
+    color: black
+}

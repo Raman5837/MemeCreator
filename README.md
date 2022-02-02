@@ -1,3 +1,9 @@
+# Thing We'll Be Doing 
+1. For API, We'll Fetch It From 
+2. Will Make A Landing Page For Our Website
+3. Will Make A Card Component For Meme Image
+4. One Editing Page, Where We'll Edit Our Meme And From There We Can Share Or Download It.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
