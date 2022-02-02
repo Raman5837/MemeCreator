@@ -1,7 +1,7 @@
-# Thing We'll Be Doing 
-1. We Are Fetching Meme Template Using ImgFlip API
-2. We've Made A Landing Page For Our Website
-3. We've A Card Component To Display  Meme Template
+# Thing I've Done In This Project
+1. I'm Fetching Meme Template Using ImgFlip API
+2. I've Made A Landing Page For Our Website
+3. I've Made A Card Component To Display  Meme Template
 4. One Editing Page, Where We'll Edit Our Meme And From There We Can Share Or Download It.
 
 ## Available Scripts
