@@ -1,4 +1,4 @@
-# Thing I've Done In This Project
+# Things I've Done In This Project
 1. I'm Fetching Meme Template Using ImgFlip API
 2. I've Made A Landing Page For Our Website
 3. I've Made A Card Component To Display  Meme Template
